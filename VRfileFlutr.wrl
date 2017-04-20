@@ -1,0 +1,162 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+DEF Flutr Transform {
+	children [ 
+	    DEF Cabin Transform {
+		    translation	0 1.9 0
+		    scale	4.7 2.3 2.6
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.2
+					    diffuseColor	1 1 1
+					    shininess	0.2
+					    transparency	0
+				    }
+
+			    }
+
+			    geometry	Sphere {
+			    }
+
+		    }
+	    }
+
+	    DEF Pod1 Transform {
+		    translation	5 0 5
+		    rotation	0 0 1  1.5708
+		    scale	2.8 0.5 2.8
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.2
+					    diffuseColor	1 1 1
+					    shininess	0.2
+					    transparency	0
+				    }
+
+			    }
+
+			    geometry	Cylinder {
+			    }
+
+		    }
+	    }
+
+	    DEF Pod2 Transform {
+		    translation	5 0 -5
+		    rotation	0 0 1  1.5708
+		    scale	2.8 0.5 2.8
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.2
+					    diffuseColor	1 1 1
+					    shininess	0.2
+					    transparency	0
+				    }
+
+			    }
+
+			    geometry	Cylinder {
+			    }
+
+		    }
+	    }
+
+	    DEF Pod3 Transform {
+		    translation	-5 0 5
+		    rotation	0 0 1  1.5708
+		    scale	2.8 0.5 2.8
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.2
+					    diffuseColor	1 1 1
+					    shininess	0.2
+					    transparency	0
+				    }
+
+			    }
+
+			    geometry	Cylinder {
+			    }
+
+		    }
+	    }
+
+	    DEF Pod4 Transform {
+		    translation	-5 0 -5
+		    rotation	0 0 1  1.5708
+		    scale	2.8 0.5 2.8
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    ambientIntensity	0.2
+					    diffuseColor	1 1 1
+					    shininess	0.2
+					    transparency	0
+				    }
+
+			    }
+
+			    geometry	Cylinder {
+			    }
+
+		    }
+	    }
+	]
+}
+DEF LandingTrack Transform {
+	translation	970 -5 0.0006
+	scale	1000 0.1 20
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.2
+				diffuseColor	0.8 0.8 0.8
+				emissiveColor	0 0 0
+				shininess	0.2
+				specularColor	0 0 0
+				transparency	0
+			}
+
+		}
+
+		geometry	Box {
+		}
+
+	}
+}
+Background {
+	groundAngle	[ 0.9, 1.5, 1.57 ]
+	groundColor	[ 0 0.8 0,
+			  0.174249 0.82 0.187362,
+			  0.467223 0.82 0.445801,
+			  0.621997 0.67 0.600279 ]
+	skyAngle	[ 0.1, 1.2, 1.57 ]
+	skyColor	[ 0.76238 0.8 0.1427,
+			  0.277798 0.219779 0.7,
+			  0.222549 0.390234 0.7,
+			  0.60094 0.662637 0.69 ]
+}
+DEF ViewpointRear Viewpoint {
+	orientation	0 -1 0  1.44513
+	position	-100 0 0
+	description	"RearView"
+}
+DEF Viewpoint3D Viewpoint {
+	orientation	0 -1 0  1.03673
+	position	-60 2 60
+	description	"3DView"
+}
+DEF ViewpointTop Viewpoint {
+	orientation	0 0.707107 0.707107  3.14159
+	position	0 100 0
+	description	"TopView"
+}
