@@ -15,8 +15,6 @@ DEF Flutr Transform {
 				    material	Material {
 					    ambientIntensity	0.2
 					    diffuseColor	1 1 1
-					    shininess	0.2
-					    transparency	0
 				    }
 
 			    }
@@ -29,15 +27,12 @@ DEF Flutr Transform {
 
 	    DEF Pod1 Transform {
 		    translation	5 0 5
-		    rotation	0 0 1  1.5708
 		    scale	2.8 0.5 2.8
 		    children Shape {
 			    appearance	Appearance {
 				    material	Material {
 					    ambientIntensity	0.2
 					    diffuseColor	1 1 1
-					    shininess	0.2
-					    transparency	0
 				    }
 
 			    }
@@ -50,15 +45,12 @@ DEF Flutr Transform {
 
 	    DEF Pod2 Transform {
 		    translation	5 0 -5
-		    rotation	0 0 1  1.5708
 		    scale	2.8 0.5 2.8
 		    children Shape {
 			    appearance	Appearance {
 				    material	Material {
 					    ambientIntensity	0.2
 					    diffuseColor	1 1 1
-					    shininess	0.2
-					    transparency	0
 				    }
 
 			    }
@@ -71,15 +63,12 @@ DEF Flutr Transform {
 
 	    DEF Pod3 Transform {
 		    translation	-5 0 5
-		    rotation	0 0 1  1.5708
 		    scale	2.8 0.5 2.8
 		    children Shape {
 			    appearance	Appearance {
 				    material	Material {
 					    ambientIntensity	0.2
 					    diffuseColor	1 1 1
-					    shininess	0.2
-					    transparency	0
 				    }
 
 			    }
@@ -92,15 +81,12 @@ DEF Flutr Transform {
 
 	    DEF Pod4 Transform {
 		    translation	-5 0 -5
-		    rotation	0 0 1  1.5708
 		    scale	2.8 0.5 2.8
 		    children Shape {
 			    appearance	Appearance {
 				    material	Material {
 					    ambientIntensity	0.2
 					    diffuseColor	1 1 1
-					    shininess	0.2
-					    transparency	0
 				    }
 
 			    }
@@ -113,17 +99,12 @@ DEF Flutr Transform {
 	]
 }
 DEF LandingTrack Transform {
-	translation	970 -5 0.0006
+	translation	970 -1 0.0006
 	scale	1000 0.1 20
 	children Shape {
 		appearance	Appearance {
 			material	Material {
 				ambientIntensity	0.2
-				diffuseColor	0.8 0.8 0.8
-				emissiveColor	0 0 0
-				shininess	0.2
-				specularColor	0 0 0
-				transparency	0
 			}
 
 		}
